@@ -1,10 +1,12 @@
-const { exception } = require('console');
-const sum = require('./sum');
+import { sumTwoNumbers } from './sum.js';
+const sum = sumTwoNumbers;
 
-test('adds 1 + 2 to equal 3', () => {
-    expect(sum(1, 2)).toBe(3);
-});
+describe ('sum two numbers', () => {
+    it('adds 1 + 2 to equal 3', () => {
+        expect(sum(1, 2)).toBe(3);
+    });
 
-test('adds 8 + 8 to equal 16', () => {
-    expect(sum(8, 8)).toBe(16);
+    it('adds 8 + 8 to equal 16', () => {
+        expect(sum(8, 8)).toBe(16);
+    });
 });
