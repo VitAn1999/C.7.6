@@ -1,0 +1,25 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "testing with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitAn1999/C.7.6.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "test",
+    "jest"
+  ],
+  "author": "Vitali Roshchupkin <elpistolero1999@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitAn1999/C.7.6/issues"
+  },
+  "homepage": "https://github.com/VitAn1999/C.7.6#readme"
+}
